@@ -7,3 +7,5 @@ data/processed/*
 data/raw/*
 
 *.DS_Store
+
+target.md
