@@ -1,0 +1,2 @@
+model,analiza,features,depth,n_leaves,accuracy,precision,recall,f1,auc,cv_f1_mean,cv_f1_std
+QUEST,A3,"['ProductRelated_Duration_disc', 'Region', 'TrafficType']",17,337,0.7067,0.5979,0.3676,0.4553,0.7252,0.4363,0.0257
