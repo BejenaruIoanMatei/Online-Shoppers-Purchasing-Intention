@@ -1,0 +1,2 @@
+model,analiza,features,depth,n_leaves,accuracy,precision,recall,f1,auc,cv_f1_mean,cv_f1_std
+CHAID,A2,"['ExitRates_disc', 'Month', 'SpecialDay', 'Weekend']",10,49,0.7039,0.5911,0.3631,0.4499,0.7292,0.4435,0.0157
