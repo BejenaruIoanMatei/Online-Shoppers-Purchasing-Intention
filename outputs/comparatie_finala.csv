@@ -1,0 +1,4 @@
+Model,Analiza,Variabile,Adâncime,Frunze,Accuracy,Precision,Recall,F1,AUC,CV_F1,CV_Std
+CART,A1,"PageValues, BounceRates, VisitorType",5,14,0.8839,0.7946,0.879,0.8347,0.9226,0.8295,0.0109
+CHAID,A2,"ExitRates_disc, Month, SpecialDay, Weekend",10,49,0.7039,0.5911,0.3631,0.4499,0.7292,0.4435,0.0157
+QUEST,A3,"ProductRelated_Duration_disc, Region, TrafficType",17,337,0.7067,0.5979,0.3676,0.4553,0.7252,0.4363,0.0257
