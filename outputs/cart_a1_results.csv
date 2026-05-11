@@ -1,0 +1,2 @@
+model,analiza,features,depth,n_leaves,accuracy,precision,recall,f1,auc,cv_f1_mean,cv_f1_std
+CART,A1,"['PageValues', 'BounceRates', 'VisitorType']",5,14,0.8839,0.7946,0.879,0.8347,0.9226,0.8295,0.0109
