@@ -205,7 +205,7 @@ ax6.text(0.01, 0.95, concluzie, transform=ax6.transAxes,
 
 plt.savefig('../../outputs/model_comparison_final.png', dpi=150, bbox_inches='tight')
 plt.show()
-print("📊 Salvat: outputs/model_comparison_final.png")
+print("Salvat: outputs/model_comparison_final.png")
 
 # ─────────────────────────────────────────
 # 11.2 TABEL FINAL PENTRU RAPORT
@@ -223,5 +223,5 @@ for _, row in results.iterrows():
 
 # Salvare tabel
 results.to_csv('../../outputs/comparatie_finala.csv', index=False)
-print("\n✅ Tabel salvat: outputs/comparatie_finala.csv")
-print("\n✅ Comparație finală completă!")
+print("\nTabel salvat: outputs/comparatie_finala.csv")
+print("\nComparație finală completă!")

@@ -9,3 +9,5 @@ data/raw/*
 *.DS_Store
 
 target.md
+
+pipeline/*
