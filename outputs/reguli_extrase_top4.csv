@@ -1,0 +1,31 @@
+﻿Model,Clasa,Nr_regula,Conditii,Nr_conditii,Samples,Probabilitate,N_false,N_true
+CART  (Gini),Cumpără,1,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues > 28.326,3,809,93.7%,0,0
+CART  (Gini),Cumpără,2,PageValues > 0.003 AND ProductRelated_Duration > 1063.308 AND Month > 6.500 AND Month ≤ 7.500 AND ExitRates ≤ 0.024,5,948,90.5%,0,0
+CART  (Gini),Cumpără,3,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration ≤ 519.412,4,331,89.4%,0,0
+CART  (Gini),Cumpără,4,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration > 519.412 AND Month ≤ 7.500,5,524,81.1%,0,0
+CART  (Gini),Cumpără,5,PageValues ≤ 0.003 AND Month > 6.500 AND ProductRelated_Duration ≤ 1890.103 AND ExitRates ≤ 0.093 AND ProductRelated_Duration ≤ 13.595,5,40,75.0%,0,0
+CART  (Gini),Nu cumpără,1,PageValues ≤ 0.003 AND Month ≤ 6.500,2,4619,98.0%,0,0
+CART  (Gini),Nu cumpără,2,PageValues ≤ 0.003 AND Month > 6.500 AND ProductRelated_Duration ≤ 1890.103 AND ExitRates > 0.093,4,204,97.5%,0,0
+CART  (Gini),Nu cumpără,3,PageValues ≤ 0.003 AND Month > 6.500 AND ProductRelated_Duration ≤ 1890.103 AND ExitRates ≤ 0.093 AND ProductRelated_Duration > 13.595,5,1473,87.0%,0,0
+CART  (Gini),Nu cumpără,4,PageValues > 0.003 AND ProductRelated_Duration > 1063.308 AND Month > 6.500 AND Month > 7.500 AND PageValues ≤ 7.868,5,47,78.7%,0,0
+CART  (Gini),Nu cumpără,5,PageValues ≤ 0.003 AND Month > 6.500 AND ProductRelated_Duration > 1890.103,3,473,72.9%,0,0
+CHAID (Entropy),Cumpără,1,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues > 28.326,3,809,93.7%,0,0
+CHAID (Entropy),Cumpără,2,PageValues > 0.003 AND ProductRelated_Duration > 1063.308 AND Month > 6.500 AND Month ≤ 7.500 AND ExitRates > 0.021 AND ProductRelated_Duration > 5166.405,6,70,92.9%,0,0
+CHAID (Entropy),Cumpără,3,PageValues > 0.003 AND ProductRelated_Duration > 1063.308 AND Month > 6.500 AND Month ≤ 7.500 AND ExitRates ≤ 0.021,5,831,91.5%,0,0
+CHAID (Entropy),Cumpără,4,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration ≤ 519.412,4,331,89.4%,0,0
+CHAID (Entropy),Cumpără,5,PageValues > 0.003 AND ProductRelated_Duration > 1063.308 AND Month ≤ 6.500 AND PageValues ≤ 15.348 AND ProductRelated_Duration ≤ 1608.118 AND ExitRates ≤ 0.013,6,45,88.9%,0,0
+CHAID (Entropy),Nu cumpără,1,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month > 4.500 AND ProductRelated_Duration ≤ 317.042,4,1360,100.0%,1,0
+CHAID (Entropy),Nu cumpără,2,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month > 4.500 AND ProductRelated_Duration > 317.042,4,1546,99.3%,0,0
+CHAID (Entropy),Nu cumpără,3,PageValues ≤ 0.003 AND Month > 6.500 AND ProductRelated_Duration ≤ 1890.103 AND ExitRates > 0.113,4,140,99.3%,0,0
+CHAID (Entropy),Nu cumpără,4,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates > 0.098,4,257,98.8%,0,0
+CHAID (Entropy),Nu cumpără,5,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates ≤ 0.098 AND ProductRelated_Duration > 26.250,5,1422,95.3%,0,0
+QUEST (Gini),Cumpără,1,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration ≤ 519.412 AND ExitRates ≤ 0.040 AND ExitRates ≤ 0.011,6,53,100.0%,0,1
+QUEST (Gini),Cumpără,2,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration ≤ 519.412 AND ExitRates ≤ 0.040 AND ExitRates > 0.011 AND Month ≤ 3.500 AND PageValues > 13.290,8,23,100.0%,0,1
+QUEST (Gini),Cumpără,3,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration ≤ 519.412 AND ExitRates ≤ 0.040 AND ExitRates > 0.011 AND Month > 3.500 AND Month > 6.500 AND PageValues ≤ 9.729,9,35,100.0%,0,1
+QUEST (Gini),Cumpără,4,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration ≤ 519.412 AND ExitRates > 0.040 AND PageValues > 12.355 AND ProductRelated_Duration > 250.287,7,20,100.0%,0,1
+QUEST (Gini),Cumpără,5,PageValues > 0.003 AND ProductRelated_Duration ≤ 1063.308 AND PageValues ≤ 28.326 AND ProductRelated_Duration > 519.412 AND Month ≤ 7.500 AND Month > 4.500 AND ExitRates ≤ 0.042 AND PageValues > 11.978 AND ExitRates ≤ 0.030 AND PageValues ≤ 21.189 AND ProductRelated_Duration ≤ 890.807 AND ProductRelated_Duration ≤ 813.905 AND ProductRelated_Duration > 683.571,13,24,100.0%,0,1
+QUEST (Gini),Nu cumpără,1,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates ≤ 0.075 AND ProductRelated_Duration > 26.250 AND ProductRelated_Duration ≤ 137.850 AND ProductRelated_Duration ≤ 85.616 AND ProductRelated_Duration > 51.350 AND ProductRelated_Duration ≤ 67.758,9,41,100.0%,1,0
+QUEST (Gini),Nu cumpără,2,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates ≤ 0.075 AND ProductRelated_Duration > 26.250 AND ProductRelated_Duration ≤ 137.850 AND ProductRelated_Duration > 85.616 AND ProductRelated_Duration > 100.040 AND ProductRelated_Duration ≤ 126.083,9,36,100.0%,1,0
+QUEST (Gini),Nu cumpără,3,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates ≤ 0.075 AND ProductRelated_Duration > 26.250 AND ProductRelated_Duration > 137.850 AND ExitRates ≤ 0.023 AND ExitRates ≤ 0.018 AND Month ≤ 0.500 AND ExitRates > 0.007 AND ProductRelated_Duration > 695.050,11,23,100.0%,1,0
+QUEST (Gini),Nu cumpără,4,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates ≤ 0.075 AND ProductRelated_Duration > 26.250 AND ProductRelated_Duration > 137.850 AND ExitRates ≤ 0.023 AND ExitRates ≤ 0.018 AND Month > 0.500 AND ProductRelated_Duration ≤ 587.812 AND ProductRelated_Duration ≤ 314.890 AND ProductRelated_Duration > 189.208,12,44,100.0%,1,0
+QUEST (Gini),Nu cumpără,5,PageValues ≤ 0.003 AND Month ≤ 6.500 AND Month ≤ 4.500 AND ExitRates ≤ 0.075 AND ProductRelated_Duration > 26.250 AND ProductRelated_Duration > 137.850 AND ExitRates ≤ 0.023 AND ExitRates ≤ 0.018 AND Month > 0.500 AND ProductRelated_Duration ≤ 587.812 AND ProductRelated_Duration > 314.890 AND ExitRates > 0.015,12,20,100.0%,1,0
