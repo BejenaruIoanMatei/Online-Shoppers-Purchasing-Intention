@@ -11,3 +11,5 @@ data/raw/*
 target.md
 
 pipeline/*
+
+__pycache__
